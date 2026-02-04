@@ -1,0 +1,14 @@
+[project]
+name = "papers-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.4.1",
+    "commonmeta-py>=0.201",
+    "crossrefapi>=1.7.0",
+    "fastmcp>=2.14.4",
+    "pymupdf4llm>=0.2.9",
+    "sentence-transformers>=5.2.2",
+]
